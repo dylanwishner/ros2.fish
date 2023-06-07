@@ -106,7 +106,7 @@ if not set -q ROS_DISTRO
     popd
 end
 
-__ros2_fish_echo "sourcing /opt/ros/$ROS_DISTRO/setup.bash"
+# __ros2_fish_echo "sourcing /opt/ros/$ROS_DISTRO/setup.bash"
 bass source /opt/ros/$ROS_DISTRO/setup.bash
 
 set -l argcomplete
